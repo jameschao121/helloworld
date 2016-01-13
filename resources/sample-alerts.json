@@ -1,0 +1,299 @@
+{
+  "_links" : {
+    "self" : {
+      "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/search/findByUserAcknowledged?recipient=TRAN.HOANH.T.1231122563&acknowledged=false&page=0&sort=alertDtg,desc&size=10"
+    },
+    "next" : {
+      "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/search/findByUserAcknowledged?recipient=TRAN.HOANH.T.1231122563&acknowledged=false&page=1&size=10&sort=alertDtg,desc"
+    }
+  },
+  "_embedded" : {
+    "/alert" : [ {
+      "alertid" : "34d5c9e2-7944-4317-8b95-9eebef1edf61",
+      "acknowledged" : false,
+      "alertsource" : "S2A Test Harness",
+      "classification" : "Classification of Rule",
+      "created" : "2015-12-08T01:36:39.005+0000",
+      "alertDtg" : "2015-12-08T01:36:39.005+0000",
+      "createdDate" : "2015-12-08T01:36:39.266+0000",
+      "details" : "[{\"ShipName|key\":\"id\",\"value\":\"USS Neversail\"},{\"ShipName|key\":\"store\",\"value\":\"store information\"},{\"ShipName|key\":\"sma\",\"value\":\"0.0\"},{\"MMSI|key\":\"id\",\"value\":\"2222\"},{\"MMSI|key\":\"store\",\"value\":\"store information\"}]",
+      "recipient" : "TRAN.HOANH.T.1231122563",
+      "title" : "Title of Rule",
+      "geoAlert" : {
+        "featureid" : "4CF5492E-4FE5-475B-B926-072867D284F3",
+        "featurename" : "USS Neversail",
+        "lat" : -13.0,
+        "lon" : -170.0,
+        "createdDate" : "2015-12-08T01:36:39.266+0000"
+      },
+      "applicationSource" : "Intellex Test Harness",
+      "alertPk" : "80310591-517f-1af8-8151-7f3bb9630068",
+      "_links" : {
+        "self" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f3bb9630068"
+        },
+        "commonAlert" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f3bb9630068/commonAlert"
+        }
+      }
+    }, {
+      "alertid" : "6519d175-7487-44f2-aa28-0ab807405beb",
+      "acknowledged" : false,
+      "alertsource" : "S2A Test Harness",
+      "classification" : "Classification of Rule",
+      "created" : "2015-12-08T01:35:38.990+0000",
+      "alertDtg" : "2015-12-08T01:35:38.990+0000",
+      "createdDate" : "2015-12-08T01:35:39.240+0000",
+      "details" : "[{\"ShipName|key\":\"id\",\"value\":\"USS Neversail\"},{\"ShipName|key\":\"store\",\"value\":\"store information\"},{\"ShipName|key\":\"sma\",\"value\":\"0.0\"},{\"MMSI|key\":\"id\",\"value\":\"2222\"},{\"MMSI|key\":\"store\",\"value\":\"store information\"}]",
+      "recipient" : "TRAN.HOANH.T.1231122563",
+      "title" : "Title of Rule",
+      "geoAlert" : {
+        "featureid" : "4CF5492E-4FE5-475B-B926-072867D284F3",
+        "featurename" : "USS Neversail",
+        "lat" : -13.5,
+        "lon" : -170.0,
+        "createdDate" : "2015-12-08T01:35:39.240+0000"
+      },
+      "applicationSource" : "Intellex Test Harness",
+      "alertPk" : "80310591-517f-1af8-8151-7f3acee80066",
+      "_links" : {
+        "self" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f3acee80066"
+        },
+        "commonAlert" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f3acee80066/commonAlert"
+        }
+      }
+    }, {
+      "alertid" : "88a4feb9-65e0-4a46-899f-abf9d663b493",
+      "acknowledged" : false,
+      "alertsource" : "S2A Test Harness",
+      "classification" : "Classification of Rule",
+      "created" : "2015-12-08T01:34:38.975+0000",
+      "alertDtg" : "2015-12-08T01:34:38.975+0000",
+      "createdDate" : "2015-12-08T01:34:39.215+0000",
+      "details" : "[{\"ShipName|key\":\"id\",\"value\":\"USS Neversail\"},{\"ShipName|key\":\"store\",\"value\":\"store information\"},{\"ShipName|key\":\"sma\",\"value\":\"0.0\"},{\"MMSI|key\":\"id\",\"value\":\"2222\"},{\"MMSI|key\":\"store\",\"value\":\"store information\"}]",
+      "recipient" : "TRAN.HOANH.T.1231122563",
+      "title" : "Title of Rule",
+      "geoAlert" : {
+        "featureid" : "4CF5492E-4FE5-475B-B926-072867D284F3",
+        "featurename" : "USS Neversail",
+        "lat" : -14.0,
+        "lon" : -170.0,
+        "createdDate" : "2015-12-08T01:34:39.215+0000"
+      },
+      "applicationSource" : "Intellex Test Harness",
+      "alertPk" : "80310591-517f-1af8-8151-7f39e4700064",
+      "_links" : {
+        "self" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f39e4700064"
+        },
+        "commonAlert" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f39e4700064/commonAlert"
+        }
+      }
+    }, {
+      "alertid" : "0add2398-b5f1-4bd0-957c-be23185abcda",
+      "acknowledged" : false,
+      "alertsource" : "S2A Test Harness",
+      "classification" : "Classification of Rule",
+      "created" : "2015-12-08T01:33:38.958+0000",
+      "alertDtg" : "2015-12-08T01:33:38.958+0000",
+      "createdDate" : "2015-12-08T01:33:39.179+0000",
+      "details" : "[{\"ShipName|key\":\"id\",\"value\":\"USS Neversail\"},{\"ShipName|key\":\"store\",\"value\":\"store information\"},{\"ShipName|key\":\"sma\",\"value\":\"0.0\"},{\"MMSI|key\":\"id\",\"value\":\"2222\"},{\"MMSI|key\":\"store\",\"value\":\"store information\"}]",
+      "recipient" : "TRAN.HOANH.T.1231122563",
+      "title" : "Title of Rule",
+      "geoAlert" : {
+        "featureid" : "4CF5492E-4FE5-475B-B926-072867D284F3",
+        "featurename" : "USS Neversail",
+        "lat" : -14.5,
+        "lon" : -170.0,
+        "createdDate" : "2015-12-08T01:33:39.179+0000"
+      },
+      "applicationSource" : "Intellex Test Harness",
+      "alertPk" : "80310591-517f-1af8-8151-7f38f9ec0062",
+      "_links" : {
+        "self" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f38f9ec0062"
+        },
+        "commonAlert" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f38f9ec0062/commonAlert"
+        }
+      }
+    }, {
+      "alertid" : "8b5c8e4e-1293-466e-bea6-da0005b15cd4",
+      "acknowledged" : false,
+      "alertsource" : "S2A Test Harness",
+      "classification" : "Classification of Rule",
+      "created" : "2015-12-08T01:32:38.931+0000",
+      "alertDtg" : "2015-12-08T01:32:38.931+0000",
+      "createdDate" : "2015-12-08T01:32:39.152+0000",
+      "details" : "[{\"ShipName|key\":\"id\",\"value\":\"USS Neversail\"},{\"ShipName|key\":\"store\",\"value\":\"store information\"},{\"ShipName|key\":\"sma\",\"value\":\"0.0\"},{\"MMSI|key\":\"id\",\"value\":\"2222\"},{\"MMSI|key\":\"store\",\"value\":\"store information\"}]",
+      "recipient" : "TRAN.HOANH.T.1231122563",
+      "title" : "Title of Rule",
+      "geoAlert" : {
+        "featureid" : "4CF5492E-4FE5-475B-B926-072867D284F3",
+        "featurename" : "USS Neversail",
+        "lat" : -15.0,
+        "lon" : -170.0,
+        "createdDate" : "2015-12-08T01:32:39.152+0000"
+      },
+      "applicationSource" : "Intellex Test Harness",
+      "alertPk" : "80310591-517f-1af8-8151-7f380f710060",
+      "_links" : {
+        "self" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f380f710060"
+        },
+        "commonAlert" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f380f710060/commonAlert"
+        }
+      }
+    }, {
+      "alertid" : "0ad45d90-ce11-4651-866f-262a093782fc",
+      "acknowledged" : false,
+      "alertsource" : "S2A Test Harness",
+      "classification" : "Classification of Rule",
+      "created" : "2015-12-08T01:31:38.915+0000",
+      "alertDtg" : "2015-12-08T01:31:38.915+0000",
+      "createdDate" : "2015-12-08T01:31:39.140+0000",
+      "details" : "[{\"ShipName|key\":\"id\",\"value\":\"USS Neversail\"},{\"ShipName|key\":\"store\",\"value\":\"store information\"},{\"ShipName|key\":\"sma\",\"value\":\"0.0\"},{\"MMSI|key\":\"id\",\"value\":\"2222\"},{\"MMSI|key\":\"store\",\"value\":\"store information\"}]",
+      "recipient" : "TRAN.HOANH.T.1231122563",
+      "title" : "Title of Rule",
+      "geoAlert" : {
+        "featureid" : "4CF5492E-4FE5-475B-B926-072867D284F3",
+        "featurename" : "USS Neversail",
+        "lat" : -15.5,
+        "lon" : -170.0,
+        "createdDate" : "2015-12-08T01:31:39.140+0000"
+      },
+      "applicationSource" : "Intellex Test Harness",
+      "alertPk" : "80310591-517f-1af8-8151-7f372505005e",
+      "_links" : {
+        "self" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f372505005e"
+        },
+        "commonAlert" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f372505005e/commonAlert"
+        }
+      }
+    }, {
+      "alertid" : "90204c67-fc7b-4481-ab24-a8f36f721bcc",
+      "acknowledged" : false,
+      "alertsource" : "S2A Test Harness",
+      "classification" : "Classification of Rule",
+      "created" : "2015-12-08T01:30:38.895+0000",
+      "alertDtg" : "2015-12-08T01:30:38.895+0000",
+      "createdDate" : "2015-12-08T01:30:39.109+0000",
+      "details" : "[{\"ShipName|key\":\"id\",\"value\":\"USS Neversail\"},{\"ShipName|key\":\"store\",\"value\":\"store information\"},{\"ShipName|key\":\"sma\",\"value\":\"0.0\"},{\"MMSI|key\":\"id\",\"value\":\"2222\"},{\"MMSI|key\":\"store\",\"value\":\"store information\"}]",
+      "recipient" : "TRAN.HOANH.T.1231122563",
+      "title" : "Title of Rule",
+      "geoAlert" : {
+        "featureid" : "4CF5492E-4FE5-475B-B926-072867D284F3",
+        "featurename" : "USS Neversail",
+        "lat" : -16.0,
+        "lon" : -170.0,
+        "createdDate" : "2015-12-08T01:30:39.109+0000"
+      },
+      "applicationSource" : "Intellex Test Harness",
+      "alertPk" : "80310591-517f-1af8-8151-7f363a86005c",
+      "_links" : {
+        "self" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f363a86005c"
+        },
+        "commonAlert" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f363a86005c/commonAlert"
+        }
+      }
+    }, {
+      "alertid" : "5ddb482d-4845-42b7-81c9-8329716af62a",
+      "acknowledged" : false,
+      "alertsource" : "S2A Test Harness",
+      "classification" : "Classification of Rule",
+      "created" : "2015-12-08T01:29:38.877+0000",
+      "alertDtg" : "2015-12-08T01:29:38.877+0000",
+      "createdDate" : "2015-12-08T01:29:39.086+0000",
+      "details" : "[{\"ShipName|key\":\"id\",\"value\":\"USS Neversail\"},{\"ShipName|key\":\"store\",\"value\":\"store information\"},{\"ShipName|key\":\"sma\",\"value\":\"0.0\"},{\"MMSI|key\":\"id\",\"value\":\"2222\"},{\"MMSI|key\":\"store\",\"value\":\"store information\"}]",
+      "recipient" : "TRAN.HOANH.T.1231122563",
+      "title" : "Title of Rule",
+      "geoAlert" : {
+        "featureid" : "4CF5492E-4FE5-475B-B926-072867D284F3",
+        "featurename" : "USS Neversail",
+        "lat" : -16.5,
+        "lon" : -170.0,
+        "createdDate" : "2015-12-08T01:29:39.086+0000"
+      },
+      "applicationSource" : "Intellex Test Harness",
+      "alertPk" : "80310591-517f-1af8-8151-7f35500f005a",
+      "_links" : {
+        "self" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f35500f005a"
+        },
+        "commonAlert" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f35500f005a/commonAlert"
+        }
+      }
+    }, {
+      "alertid" : "fe216153-5d94-4d84-8171-50512ecb765e",
+      "acknowledged" : false,
+      "alertsource" : "S2A Test Harness",
+      "classification" : "Classification of Rule",
+      "created" : "2015-12-08T01:28:38.862+0000",
+      "alertDtg" : "2015-12-08T01:28:38.862+0000",
+      "createdDate" : "2015-12-08T01:28:39.053+0000",
+      "details" : "[{\"ShipName|key\":\"id\",\"value\":\"USS Neversail\"},{\"ShipName|key\":\"store\",\"value\":\"store information\"},{\"ShipName|key\":\"sma\",\"value\":\"0.0\"},{\"MMSI|key\":\"id\",\"value\":\"2222\"},{\"MMSI|key\":\"store\",\"value\":\"store information\"}]",
+      "recipient" : "TRAN.HOANH.T.1231122563",
+      "title" : "Title of Rule",
+      "geoAlert" : {
+        "featureid" : "4CF5492E-4FE5-475B-B926-072867D284F3",
+        "featurename" : "USS Neversail",
+        "lat" : -17.0,
+        "lon" : -170.0,
+        "createdDate" : "2015-12-08T01:28:39.053+0000"
+      },
+      "applicationSource" : "Intellex Test Harness",
+      "alertPk" : "80310591-517f-1af8-8151-7f34658e0058",
+      "_links" : {
+        "self" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f34658e0058"
+        },
+        "commonAlert" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f34658e0058/commonAlert"
+        }
+      }
+    }, {
+      "alertid" : "24d6b8b5-a658-4561-8895-126e505a0ea2",
+      "acknowledged" : false,
+      "alertsource" : "S2A Test Harness",
+      "classification" : "Classification of Rule",
+      "created" : "2015-12-08T01:27:38.846+0000",
+      "alertDtg" : "2015-12-08T01:27:38.846+0000",
+      "createdDate" : "2015-12-08T01:27:39.004+0000",
+      "details" : "[{\"ShipName|key\":\"id\",\"value\":\"USS Neversail\"},{\"ShipName|key\":\"store\",\"value\":\"store information\"},{\"ShipName|key\":\"sma\",\"value\":\"0.0\"},{\"MMSI|key\":\"id\",\"value\":\"2222\"},{\"MMSI|key\":\"store\",\"value\":\"store information\"}]",
+      "recipient" : "TRAN.HOANH.T.1231122563",
+      "title" : "Title of Rule",
+      "geoAlert" : {
+        "featureid" : "4CF5492E-4FE5-475B-B926-072867D284F3",
+        "featurename" : "USS Neversail",
+        "lat" : -17.5,
+        "lon" : -170.0,
+        "createdDate" : "2015-12-08T01:27:39.004+0000"
+      },
+      "applicationSource" : "Intellex Test Harness",
+      "alertPk" : "80310591-517f-1af8-8151-7f337afc0056",
+      "_links" : {
+        "self" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f337afc0056"
+        },
+        "commonAlert" : {
+          "href" : "https://dcgsn-d-portal1.sd.spawar.navy.mil/ufs-alert-service/api/alert/80310591-517f-1af8-8151-7f337afc0056/commonAlert"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "size" : 10,
+    "totalElements" : 4558,
+    "totalPages" : 456,
+    "number" : 0
+  }
+}
